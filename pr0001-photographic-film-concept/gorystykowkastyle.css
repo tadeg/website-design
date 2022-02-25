@@ -1,0 +1,349 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+/*Header - Logo*/
+
+div.upelement {
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+div.logo {
+  width: 100%;
+  line-height: 60px;
+  padding: 10px 6%;
+  background-color: black;
+  font-size: 2.1rem;
+  color: white;
+  text-align: left;
+  float: left;
+}
+
+
+/*---------- break points for mobile ----------*/
+
+@media (orientation: portrait) and (min-width: 360px) {
+  div.logo {
+    font-size: 2.4rem;
+  }
+}
+
+@media (orientation: portrait) and (min-width: 410px) {
+  div.logo {
+    font-size: 2.7rem;
+  }
+}
+
+@media (orientation: portrait) and (min-width: 768px) {
+  div.logo {
+    font-size: 3.0rem;
+  }
+}
+
+/*---------- break points for desktop ----------*/
+/* od 1024px - 1 breakpoint dla desktop*; i tablety/*/
+
+@media (orientation: landscape) and (min-width: 1024px) {
+
+  /*Header - Logo*/
+  div.logo {
+    font-size: 3rem;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 1280px) {
+
+  /*Header - Logo*/
+  div.logo {
+    font-size: 3.5rem;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 1600px) {
+
+  /*Header - Logo*/
+  div.logo {
+    font-size: 3.7rem;
+  }
+}
+
+
+/*------------------------------------------
+  /*Film concept 2 x 3frames*/
+
+h1.stykowkaname {
+  font-family: 'Saira Condensed', sans-serif;
+  padding-top: 20vh;
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #444;
+}
+
+.klatka {
+  float: left;
+  height: 17vh;
+  width: 33.33%;
+  border-right: 4px solid black;
+  border-left: 4px solid black;
+  border-top: 5px dashed black;
+  border-bottom: 5px dashed black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+
+.klatka p {
+  padding: 5px 0;
+  font-family: 'saira', sans-serif;
+  font-size: 10px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 0 4px black;
+  background-color: rgba(0, 0, 0, .5);
+  opacity: 1;
+}
+
+.klatka a {
+  text-decoration: none;
+}
+
+.stykowka1 {
+  position: absolute;
+  top: 25vh;
+  left: 0;
+  /*  float: left;*/
+  width: 100vw;
+  margin-top: 5vh;
+  /*  margin-bottom: 5vh;*/
+  background-color: black;
+}
+
+.stykowka1 .klatka:nth-of-type(1) {
+  background-image: url(02_gory/gf_Rg_00002.jpg)
+}
+
+.stykowka1 .klatka:nth-of-type(2) {
+  background-image: url(02_gory/gf_Rg_00001.jpg)
+}
+
+.stykowka1 .klatka:nth-of-type(3) {
+  background-image: url(02_gory/gf_Rg_00013.jpg)
+}
+
+
+.stykowka2 {
+  position: absolute;
+  top: 48vh;
+  left: 0;
+  /*  float: left;*/
+  width: 100vw;
+  margin-top: 5vh;
+  /*  margin-bottom: 5vh;*/
+  background-color: black;
+}
+
+.stykowka2 .klatka:nth-of-type(1) {
+  /* background-image: url(../../img/tematy/02_gory/gf_Rg_00012.jpg) */
+  background-image: url(02_gory/gf_Rg_00012.jpg)
+}
+
+.stykowka2 .klatka:nth-of-type(2) {
+  background-image: url(02_gory/gf_Rg_00003.jpg)
+}
+
+.stykowka2 .klatka:nth-of-type(3) {
+  background-image: url(02_gory/gf_Rg_00014.jpg)
+}
+
+
+
+.stykowka3 {
+  position: absolute;
+  top: 71vh;
+  left: 0;
+  float: left;
+  width: 100vw;
+  margin-top: 5vh;
+  margin-bottom: 15vh;
+  background-color: black;
+}
+
+.stykowka3 .klatka:nth-of-type(1) {
+  background-image: url(02_gory/gf_Rg_00015.jpg)
+}
+
+.stykowka3 .klatka:nth-of-type(2) {
+  background-image: url(02_gory/gf_Rg_00006.jpg)
+}
+
+.stykowka3 .klatka:nth-of-type(3) {
+  background-image: url(02_gory/gf_Rg_00005.jpg)
+}
+
+
+.stykowka4 {
+  position: absolute;
+  top: 94vh;
+  left: 0;
+  float: left;
+  width: 100vw;
+  margin-top: 5vh;
+  margin-bottom: 15vh;
+  background-color: black;
+}
+
+.stykowka4 .klatka:nth-of-type(1) {
+  background-image: url(02_gory/gf_Rg_00018.jpg)
+}
+
+.stykowka4 .klatka:nth-of-type(2) {
+  background-image: url(02_gory/gf_Rg_00016.jpg)
+}
+
+.stykowka4 .klatka:nth-of-type(3) {
+  background-image: url(02_gory/gf_Rg_00019.jpg)
+}
+
+
+/*---------- break points for mobile ----------*/
+
+@media (orientation: portrait) and (min-width: 768px) {
+
+  h1.stykowkaname {
+    padding-top: 16vh;
+    font-size: 40px;
+  }
+
+  .klatka {
+    border-right: 5px solid black;
+    border-left: 5px solid black;
+    border-top: 8px dashed black;
+    border-bottom: 8px dashed black;
+  }
+
+  .klatka p {
+    padding: 5px 0;
+    font-size: 14px;
+  }
+
+}
+
+
+/*
+---------- break points for desktop ----------
+ od 1024px - 1 breakpoint dla desktop*; i tablety
+
+*/
+@media (orientation: landscape) and (min-width: 533px) {
+
+  h1.stykowkaname {
+    padding-top: 17vh;
+    font-size: 0;
+  }
+
+  .klatka {
+    height: 25vh;
+    border-right: 6px solid black;
+    border-left: 6px solid black;
+    border-top: 9px dashed black;
+    border-bottom: 9px dashed black;
+  }
+
+
+  .klatka p {
+    padding: 5px 0;
+    font-family: 'saira', sans-serif;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 4px black;
+    background-color: rgba(0, 0, 0, .5);
+    opacity: 1;
+  }
+
+  .klatka a {
+    text-decoration: none;
+  }
+
+
+  .stykowka1 {
+    position: absolute;
+    top: 25vh;
+    left: 0;
+    /*  float: left;*/
+    width: 50vw;
+    margin-top: 5vh;
+    /*  margin-bottom: 5vh;*/
+  }
+
+  .stykowka2 {
+    position: absolute;
+    top: 25vh;
+    left: 50vw;
+    /*  float: left;*/
+    width: 50vw;
+    margin-top: 5vh;
+    /*  margin-bottom: 5vh;*/
+  }
+
+  .stykowka3 {
+    position: absolute;
+    top: 55vh;
+    left: 0;
+    /*  float: left;*/
+    width: 50vw;
+    margin-top: 5vh;
+    /*  margin-bottom: 5vh;*/
+  }
+
+  .stykowka4 {
+    position: absolute;
+    top: 55vh;
+    left: 50vw;
+    /*  float: left;*/
+    width: 50vw;
+    margin-top: 5vh;
+    /*  margin-bottom: 5vh;*/
+  }
+
+}
+
+
+@media (orientation: landscape) and (min-width: 1025px) {
+
+  h1.stykowkaname {
+    padding-top: 17vh;
+    font-size: 40px;
+  }
+
+  .klatka p {
+    height: 100%;
+    font-size: 13px;
+    opacity: 0;
+    transition: 1s;
+  }
+
+  .klatka:hover p {
+    opacity: 1;
+  }
+
+}
