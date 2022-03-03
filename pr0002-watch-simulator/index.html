@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Watch Simulator</title>
-    <script src="https://kit.fontawesome.com/f8b09f0802.js" crossorigin="anonymous"></script>
     <style>
         body {
             background-color: blue;
@@ -53,23 +52,28 @@
             position: absolute;
             top: 3vh;
             left: 5vw;
-            font-size: 80px;
+            padding: 1vh 3vw;
+            border-radius: 15%;
+            font-family: Arial;
+            font-size: 60px;
+            color: white;
+            background-color: #444;
+            z-index: 1;
             -webkit-transition: .s3 linear;
             transition: .3s linear;
-            z-index: 1;
-            color: yellow;
         }
 
         div.start:hover {
             cursor: pointer;
             color: #e27215;
+            color: lightgreen;
         }
 
         .press {
             display: none;
         }
 
-        i.show {
+        span.show {
             display: block;
         }
     </style>
@@ -79,8 +83,8 @@
 <body>
 
     <div class="start">
-        <i class="fa-solid fa-circle-play press show"></i>
-        <i class="fas fa-times press"></i>
+        <span class="press show">Start</span>
+        <span class="press">Stop</span>
     </div>
 
     <div class="watch">
