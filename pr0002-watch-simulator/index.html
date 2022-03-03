@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch Simulator</title>
+    <script src="https://kit.fontawesome.com/f8b09f0802.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            background-color: blue;
+            background-image: linear-gradient(#eee 2px, transparent 0),
+                linear-gradient(90deg, #eee 2px, transparent 0);
+            background-size: 10px 30px;
+        }
+
+        .watch {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 40vw;
+            height: 40vw;
+            border-radius: 50%;
+            background-color: lightblue;
+            background-image: linear-gradient(#eee 2px, transparent 0),
+                linear-gradient(90deg, #eee 2px, transparent 0);
+            background-size: 20px 10px;
+            border: 10px solid #e27215;
+        }
+
+        div.hand {
+            position: absolute;
+            top: 5%;
+            left: 50%;
+            width: 6px;
+            height: 45%;
+            background-color: #000;
+            background-color: blue;
+            /* background-color: #e27215; */
+            border-radius: 20% 50% 20% 50%;
+            transform: rotate(0deg) translate(-50%);
+            transform-origin: 50% 100%;
+            transition: 60s steps(60);
+        }
+
+        div.hand.go {
+            transform: rotate(360deg) translate(-50%);
+        }
+
+        div.start {
+            position: absolute;
+            top: 3vh;
+            left: 5vw;
+            font-size: 80px;
+            -webkit-transition: .s3 linear;
+            transition: .3s linear;
+            z-index: 1;
+            color: yellow;
+        }
+
+        div.start:hover {
+            cursor: pointer;
+            color: #e27215;
+        }
+
+        .press {
+            display: none;
+        }
+
+        i.show {
+            display: block;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="start">
+        <i class="fa-solid fa-circle-play press show"></i>
+        <i class="fas fa-times press"></i>
+    </div>
+
+    <div class="watch">
+        <div class="hand"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script>
+        $(".start").on("click", function () {
+            $("div.hand").toggleClass("go");
+            $(".press").toggleClass("show");
+        })
+    </script>
+
+</body>
+
+</html>
