@@ -1,3 +1,3 @@
 # website-design
-Websites - list and links;
-Small pieces - small projects, works, concepts
+websites - list and links;
+small pieces - small projects, works, concepts
