@@ -1,2 +1,3 @@
 # website-design
-Website design concepts
+Websites - list and links
+Small pieces - small projects, works, concepts
