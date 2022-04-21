@@ -1,5 +1,5 @@
 # Contents
-* [General info](#general info)
+* [General info](#generalInfo)
 * [Technologies](#technologies)
 * [Websites](#websites)
 * [Small pieces](#smallpieces)
