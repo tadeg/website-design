@@ -2,7 +2,7 @@
 * [General info](#general info)
 * [Technologies](#technologies)
 * [Websites](#websites)
-* [Small pieces] (#smallpieces)
+* [Small pieces](#smallpieces)
 
 website-design
 ## websites - list and links;
