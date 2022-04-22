@@ -1,13 +1,73 @@
 # website-design
+> **Portfolio** of front-end development hobby works created by **tadoe**.
 
 # Contents
-* [General info](#generalInfo)
-* [Technologies](#technologies)
+* [General info](#general-info)
 * [Websites](#websites)
-* [Small pieces](#smallpieces)
+* [Short pieces](#short-pieces)
+* [Mockups](#mockups)
 
+## General info 
+This repository contains author's portfolio of front-end development amateur, hobby works. It covers links to author's **websites**, information about them (subject area, technologies and libraries used, language), works called '**short pieces**' and **mockup** part. Section Short pieces concerning small works, projects, concepts includes links to source codes, descriptions, information about technologies and libraries used and main concepts, properties that are applied in a piece.
 
-## websites - list and links;
-## small pieces - small projects, works, concepts
-> pr0001 [photographic-film-concept](https://github.com/tadeg/website-design/tree/main/pr0001-photographic-film-concept)
-> pr0002 [watch-simulator](https://github.com/tadeg/website-design/tree/main/pr0002-watch-simulator)
+## Websites
+
+> ### www.gugafotografia.pl
+  - Subject area: Photography
+  - Techologies, libraries: HTML, CSS
+  - Langugage: pl
+  - [x] Published: 2021.08
+  
+> ### www.gugafoto.pl
+  - Subject area: Photography
+  - Techologies, libraries: HTML, CSS, JS, SASS, Lightbox
+  - Langugage: pl/en
+  - [x] Published: 2022.02
+
+> ### www.naszerysunki.pl
+  - Subject area: Drawings made for fun
+  - Techologies, libraries: HTML, CSS, JS, jQuery, Lightbox
+  - Langugage: pl
+  - [x] Published: 2022.02
+  
+ > ### www.fotofilozofia.pl
+  - Subject area: Texts attempting to merge photographic themes with philosophical concepts
+  - Techologies, libraries: HTML, CSS
+  - Langugage: pl
+  - [x] Published: 2021.10
+
+> ### www.sometext.pl
+  - Subject area: Short essays in English
+  - Techologies, libraries: HTML, CSS
+  - Langugage: en
+  - [x] Published: 2021.10
+
+## Short pieces 
+
+#### [pr0001-photographic-film-concept](https://github.com/tadeg/website-design/tree/main/pr0001-photographic-film-concept)
+<details>
+<summary>Specification</summary>
+<ul>
+<li>Description: The concept of images placing on the website using a design of an old, analog photographic film</li>
+<li>Technologies, libraries: HTML, CSS</li>
+<li>Main concepts, properties: position, float</li>
+<li>Published: 2022.02</li>
+</ul>
+</details>
+
+#### [pr0002-watch-simulator](https://github.com/tadeg/website-design/tree/main/pr0002-watch-simulator)
+<details>
+<summary>Specification</summary>
+<ul>
+<li>Description: An animation of a rotating element drawn in the shape of a watch hand</li>
+<li>Technologies, libraries: HTML, CSS, jQuery</li>
+<li>Main concepts, properties: position, transform, linear-gradient</li>
+<li>Published: 2022.03</li>
+</ul>
+</details>
+
+## Mockups
+  - mockup#1
+
+## Contact info
+✉️ tadoe@tadoe.pl
