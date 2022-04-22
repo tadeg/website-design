@@ -1,3 +1,2 @@
-Description:
-Mockups for websites
-
+### Description:
+Mockup for website www.gugafotografia.pl
