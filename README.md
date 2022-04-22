@@ -67,7 +67,7 @@ This repository contains author's portfolio of front-end development amateur, ho
 </details>
 
 ## Mockups
-  - mockup#1
+#### [mk0001-gugafotografia.pl](https://github.com/tadeg/website-design/tree/main/mockups/mk0001-gugafotografia.pl)
 
 ## Contact info
 ✉️ tadoe@tadoe.pl
