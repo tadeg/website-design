@@ -21,9 +21,6 @@
 - #### Published 
     2022.03
 
-- #### Sources / Inspired by
-    ...
-
 
 
 
