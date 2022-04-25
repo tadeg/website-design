@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block house</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            font-size: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: lightcoral;
+        }
+
+        section.start {
+            position: absolute;
+            top: 3vh;
+            left: 5vw;
+            padding: 1vh 3vw;
+            border-radius: 15%;
+            font-family: Arial;
+            font-size: 60px;
+            color: white;
+            background-color: #444;
+            z-index: 1;
+            transition: .3s linear;
+        }
+
+        section.start:hover {
+            cursor: pointer;
+            color: lightgreen;
+        }
+
+        .press {
+            display: none;
+        }
+
+        span.show {
+            display: block;
+        }
+
+
+        /* --------- walls --------- */
+        div.brick1 {
+            position: absolute;
+            top: 100%;
+            left: 0%;
+            transition: 1s ease-out;
+        }
+
+        /* --------- walls ANIMATION --------- */
+        div.brick1.build {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 200px;
+            height: 160px;
+            background-color: aqua;
+        }
+
+
+
+        /* --------- roof --------- */
+        div.brick2 {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            border-bottom: 0;
+            border-left: 0;
+            border-right: 0;
+            transform: rotate(-90deg);
+            transition: 2s ease-out .5s;
+        }
+
+        /* --------- roof ANIMATION--------- */
+        div.brick2.build {
+            position: absolute;
+            bottom: calc(50% + 80px);
+            left: 50%;
+            transform: translateX(-50%);
+            border-bottom: 100px solid #000;
+            border-left: 100px solid transparent;
+            border-right: 100px solid transparent;
+        }
+
+
+
+        /* --------- chimney --------- */
+        div.brick3 {
+            position: absolute;
+            top: 100%;
+            left: 0%;
+            transition: 2s ease-out 1s;
+        }
+
+        /* --------- chimney ANIMATION --------- */
+        div.brick3.build {
+            position: absolute;
+            top: calc(50% - 200px);
+            left: 55%;
+            width: 20px;
+            height: 100px;
+            background-color: #000;
+        }
+
+
+
+        /* --------- left window --------- */
+        div.brick4 {
+            position: absolute;
+            top: 100%;
+            left: 0%;
+            transition: 1s ease-out 2s;
+        }
+
+        /* --------- left window ANIMATION --------- */
+        div.brick4.build {
+            position: absolute;
+            top: calc(50% - 50px);
+            left: calc(50% - 80px);
+            width: 50px;
+            height: 50px;
+            background-color: blue;
+        }
+
+
+
+        /* --------- right window --------- */
+        div.brick5 {
+            position: absolute;
+            top: 100%;
+            left: 0%;
+            transition: 1s ease-out 2s;
+        }
+
+        /* --------- right window ANIMATION --------- */
+        div.brick5.build {
+            position: absolute;
+            top: calc(50% - 50px);
+            left: calc(50% + 30px);
+            width: 50px;
+            height: 50px;
+            background-color: blue;
+        }
+
+
+
+        /* --------- doors --------- */
+        div.brick6 {
+            position: absolute;
+            top: 100%;
+            left: 0%;
+            transition: 1s ease-out 2s;
+        }
+
+        /* --------- doors ANIMATION --------- */
+        div.brick6.build {
+            position: absolute;
+            top: calc(50% + 10px);
+            left: calc(50% - 25px);
+            width: 50px;
+            height: 70px;
+            background-color: lightskyblue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="start">
+        <span class="press show">Start</span>
+        <span class="press">Back</span>
+    </section>
+
+    <div class="brick1"></div>
+    <div class="brick2"></div>
+    <div class="brick3"></div>
+    <div class="brick4"></div>
+    <div class="brick5"></div>
+    <div class="brick6"></div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- <script src="lib/jquery-3.6.0.min.js"></script> -->
+
+    <script>
+        $("section.start").on("click", function () {
+            $("div").toggleClass("build");
+            $(".press").toggleClass("show");
+        })
+    </script>
+
+</body>
+
+</html>
