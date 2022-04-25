@@ -66,6 +66,17 @@ This repository contains author's portfolio of front-end development amateur, ho
 </ul>
 </details>
 
+#### [pr0003-block-house](https://github.com/tadeg/website-design/tree/main/pr0003-block-house)
+<details>
+<summary>Specification</summary>
+<ul>
+<li>Description: An animation of a block house building</li>
+<li>Technologies, libraries: HTML, CSS, jQuery</li>
+<li>Main concepts, properties: position, transform</li>
+<li>Published: 2022.04</li>
+</ul>
+</details>
+
 ## Mockups
 #### [mk0001-gugafotografia.pl](https://github.com/tadeg/website-design/tree/main/mockups/mk0001-gugafotografia.pl)
 
