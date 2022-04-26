@@ -92,7 +92,7 @@ This repository contains author's portfolio of front-end development amateur, ho
 <details>
 <summary>Specification</summary>
 <ul>
-<li>Description:  Notes and todo list with weather information section and some ideas displayed in ramdom mode</li>
+<li>Description:  Notes and todo list with weather information section and some ideas displayed in random mode</li>
 <li>Technologies, libraries: HTML, CSS, JS, API</li>
 <li>Main concepts, properties: flexbox, input, axios (get, then, catch), createElement, append, e.target</li>
 <li>Published: 2022.04</li>
