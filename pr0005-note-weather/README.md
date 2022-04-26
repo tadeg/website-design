@@ -19,7 +19,6 @@
   - e.target
 
 - #### Additional links
-  - [GitHub preview](#)
   - [CodePen work](https://codepen.io/tadeT/pen/KKZjvxE)
     
 - #### Inspired by
