@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+
+div.wrapper {
+    max-width: 900px;
+    margin: 10vh auto;
+    padding: 3vh 3vw;
+    background-color: midnightblue;
+    border-radius: 1%;
+    box-shadow: 10px 10px 10px 2px #999;
+
+}
+
+/* -------------- dayli, weather ----------------- */
+
+div.upper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: blue;
+}
+
+div.dayli {
+    flex-basis: 100%;
+    padding: 1vw;
+    background-image: linear-gradient(90deg, blue, green)
+}
+
+@media (min-width: 640px) {
+    div.dayli {
+        flex-basis: 50%;
+    }
+}
+
+p.fact {
+    color: aqua;
+}
+
+div.weather {
+    flex-basis: 100%;
+    padding: 1vw;
+    background-image: linear-gradient(90deg, yellow 15%, blue 45%, grey 100%)
+        /* text-align: center; */
+}
+
+@media (min-width: 640px) {
+    div.weather {
+        flex-basis: 50%;
+    }
+}
+
+.weather-up {}
+
+.weather-down {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 1vh 10vw 1vh 5vw; */
+}
+
+div.geo {}
+
+.city {
+    font-size: 2.5rem;
+    color: blue;
+}
+
+.city-input {
+    width: 50%;
+    margin: 10px 20px 10px 0;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(244, 244, 244);
+}
+
+.city-input:focus {
+    font-size: 2rem;
+    background-color: greenyellow;
+}
+
+button.get-wea {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.get-wea:hover {
+    color: #555;
+    font-size: 2rem;
+    background-color: greenyellow;
+    border: 2px solid white;
+}
+
+.wea-warning {
+    font-size: 1.4rem;
+    font-style: italic;
+    color: crimson;
+}
+
+.weather-down .attributes {
+    font-size: 1.7rem;
+    color: royalblue;
+    margin-left: 1vw;
+}
+
+.weather-down .values {
+    font-size: 1.7rem;
+    color: aqua;
+}
+
+div.wea-images {
+    width: 20vw;
+    text-align: center;
+}
+
+img.wea-ico {
+    width: 50%
+}
+
+
+
+
+/* -------------- todo ----------------- */
+
+div.todonotes {
+    text-align: center;
+    /* background-color: lightskyblue; */
+}
+
+div.todo-up {
+    padding-top: 3%;
+    padding-bottom: 5%;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #fff;
+    background-color: royalblue;
+}
+
+.fa-solid {
+    pointer-events: none;
+}
+
+.note-input {
+    width: 80%;
+    margin: 10px 20px 10px 0;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(244, 244, 244);
+}
+
+
+.note-input:focus {
+    font-size: 2rem;
+    background-color: greenyellow;
+}
+
+
+.btn-add {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.btn-add:hover {
+    color: #555;
+    font-size: 2rem;
+    background-color: greenyellow;
+    border: 2px solid white;
+}
+
+p.error-inf {
+    margin: 10px 0;
+    font-size: 1.4rem;
+    font-style: italic;
+    color: white;
+
+}
+
+div.todo-down {
+    /* background-color: aqua; */
+}
+
+.todo-down li {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 10px 30px;
+    margin-bottom: 1vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.7rem;
+    text-align: left;
+    color: #222;
+    background-color: rgb(220, 215, 215);
+    background-color: rgb(157, 253, 157);
+
+}
+
+
+.note-tools {
+    display: inline-block;
+}
+
+
+.note-tools button {
+    font-size: 2rem;
+    padding-right: 15px;
+    border: none;
+    color: #222;
+    background-color: transparent;
+    cursor: pointer;
+    /* transition: background-color .3s; */
+}
+
+.note-tools button.done:hover {
+    color: blue;
+}
+
+.note-tools button.edit:hover {
+    /* color: rgb(31, 200, 31); */
+    color: rgb(50, 171, 17);
+}
+
+.note-tools button.delete:hover {
+    color: tomato;
+}
+
+li.task-done {
+    color: #999;
+    font-size: 1.2rem;
+    font-style: italic;
+    /* text-decoration: line-through; */
+}
+
+.bt-done {
+    color: #999;
+    text-decoration: none;
+
+}
+
+
+div.todo-modal {
+    display: none;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 900px;
+    margin: 5vh auto .5vh;
+    padding: 1vh 1vw;
+
+    color: coral;
+    background-color: rgb(73, 73, 73);
+    /* background-color: #999; */
+}
+
+div.todo-modal h2 {
+    font-size: 2.1rem;
+}
+
+p.modal-info {
+    margin: 10px 0;
+    font-size: 1.4rem;
+    font-style: italic;
+    color: white;
+    color: red;
+}
+
+div.modal-content {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 90%;
+    padding: 3vh 0;
+    /* padding: 10px; */
+}
+
+.modal-input {
+    width: 100%;
+    /* width: 80%; */
+    margin-bottom: 1vh;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(244, 244, 244);
+}
+
+.modal-input:focus {
+    font-size: 2rem;
+    background-color: greenyellow;
+}
+
+.modal-btn {
+    flex-basis: 20%;
+    margin-right: 1vw;
+    padding: 1px 30px;
+    border: none;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.modal-btn:hover {
+    color: #555;
+    font-size: 2rem;
+    background-color: greenyellow;
+    border: 2px solid white;
+}
+
+.modal-btn.cancel:hover {
+    background-color: coral;
+}
