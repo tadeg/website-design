@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note & Weather</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f8b09f0802.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <div class="upper">
+
+            <div class="dayli">
+                <h2>Today is <span class="today"></span>.</h2>
+                <p class="fact"></p>
+            </div>
+
+            <div class="weather">
+
+                <div class="weather-up">
+                    <h2>Weather info</h2>
+                    <div class="geo">
+                        <div>
+                            <h3 class="city"></h3>
+                            <input type="text" class="city-input" placeholder="Enter city name ...">
+                            <button class="get-wea">Get info</button>
+                            <p class="wea-warning"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="weather-down">
+                    <div class="attributes">
+                        <p>Weather:</p>
+                        <p>Temperature:</p>
+                        <p>Humidity:</p>
+                    </div>
+                    <div class="values">
+                        <p class="weathercondition"></p>
+                        <p class="temperature"></p>
+                        <p class="humidity"></p>
+                    </div>
+                    <div class="wea-images"><img src="" class="wea-ico" alt=""></div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div class="todonotes">
+
+            <div class="todo-up">
+                <h2>ToDo and Notes List</h2>
+                <input type="text" class="note-input" placeholder="Enter the task or note content ...">
+                <button class="btn-add">Add</button>
+            </div>
+
+            <div class="todo-down">
+                <p class="error-inf">There are no tasks or notes on the list!</p>
+                <ul>
+                    <!-- <li data-id="note1">Drink coffee
+                        <div class="note-tools">
+                            <button class="done"><i class="fa-solid fa-square-check"></i></button>
+                            <button class="edit"><i class="fa-solid fa-pen-to-square"></i></button>
+                            <button class="delete"><i class="fa-solid fa-trash-can"></i></button>
+                        </div>
+                    </li>
+                    <li data-id="note2">Read newspaper
+                        <div class="note-tools">
+                            <button class="done"><i class="fa-solid fa-square-check"></i></button>
+                            <button class="edit"><i class="fa-solid fa-pen-to-square"></i></button>
+                            <button class="delete"><i class="fa-solid fa-trash-can"></i></button>
+                        </div>
+                    </li>
+                    <li data-id="note3">Play 'lalki i herbatki'
+                        <div class="note-tools">
+                            <button class="done"><i class="fa-solid fa-square-check"></i></button>
+                            <button class="edit"><i class="fa-solid fa-pen-to-square"></i></button>
+                            <button class="delete"><i class="fa-solid fa-trash-can"></i></button>
+                        </div>
+                    </li> -->
+                </ul>
+            </div>
+
+            <div class="todo-modal">
+                <h2>Edit task:</h2>
+                <div class="modal-content">
+                    <p class="modal-info"></p>
+                    <input type="text" class="modal-input" placeholder="Enter new task or note content...">
+                    <button class="modal-btn ok">Ok</button>
+                    <button class="modal-btn cancel">Cancel</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
