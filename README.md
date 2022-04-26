@@ -88,6 +88,17 @@ This repository contains author's portfolio of front-end development amateur, ho
 </ul>
 </details>
 
+#### [pr0005-note-weather](https://github.com/tadeg/website-design/tree/main/pr0005-note-weather)
+<details>
+<summary>Specification</summary>
+<ul>
+<li>Description:  Notes and todo list with weather information section and some ideas displayed in ramdom mode</li>
+<li>Technologies, libraries: HTML, CSS, JS, API</li>
+<li>Main concepts, properties: flexbox, input, axios (get, then, catch), createElement, append, e.target</li>
+<li>Published: 2022.04</li>
+</ul>
+</details>
+
 ## Mockups
 #### [mk0001-gugafotografia.pl](https://github.com/tadeg/website-design/tree/main/mockups/mk0001-gugafotografia.pl)
 
