@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    /* ----- gameDisplay ----- */
+    --gameDisplayWidth: 700px;
+    --gameDisplayHeight: 400px;
+    --gameDisplayColor: coral;
+    --gameDisplayBack: linear-gradient(90deg, yellow 15%, blue 75%, crimson 100%);
+
+    /* ----- player ----- */
+    --playerWidth: 25px;
+    --playerHeight: 80px;
+    --playerColor: darkblue;
+
+    /* ----- puck ----- */
+    --puckSize: 50px;
+    --puckColor: #fff;
+
+    /* ----- position ----- */
+    --playerFromEdge: 50px;
+
+    /* ----- animation time ----- */
+    --animationTime: 10s;
+}
+
+
+html {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: turquoise;
+    /* background-image: linear-gradient(90deg, yellow 15%, blue 45%, grey 100%); */
+    overflow: hidden;
+}
+
+section.start {
+    position: absolute;
+    top: 3vh;
+    left: 5vw;
+    padding: 1vh 3vw;
+    border-radius: 15%;
+    font-family: Arial;
+    font-size: 60px;
+    color: white;
+    background-color: #444;
+    /* z-index: 1; */
+    transition: .3s linear;
+}
+
+section.start:hover {
+    cursor: pointer;
+    color: lightgreen;
+}
+
+.press {
+    display: none;
+}
+
+span.show {
+    display: block;
+}
+
+
+.game-display,
+.puck,
+.player,
+.info {
+    position: absolute;
+}
+
+.game-display {
+    width: var(--gameDisplayWidth);
+    height: var(--gameDisplayHeight);
+    background-color: var(--gameDisplayColor);
+    background-image: var(--gameDisplayBack);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.puck {
+    width: var(--puckSize);
+    height: var(--puckSize);
+    border-radius: 50%;
+    top: calc(50% - var(--puckSize)/2);
+    left: calc(50% - var(--puckSize)/2);
+    background-color: var(--puckColor);
+
+}
+
+.puck.play {
+    animation: puckMove var(--animationTime) linear both;
+}
+
+
+.player {
+    width: var(--playerWidth);
+    height: var(--playerHeight);
+    background-color: var(--playerColor);
+}
+
+.one {
+    top: calc(50% - var(--playerHeight)/2);
+    left: var(--playerFromEdge);
+
+}
+
+.one.play {
+    animation: playerOneActiv var(--animationTime) linear both;
+}
+
+.two {
+    top: calc(50% - var(--playerHeight)/2);
+    right: var(--playerFromEdge);
+}
+
+.two.play {
+    animation: playerTwoActiv var(--animationTime) linear both;
+}
+
+.info {
+    width: 100%;
+    left: 0;
+    top: 5%;
+    font-size: 3rem;
+    text-align: center;
+    color: darkblue;
+    transform: scale(0);
+}
+
+
+.info.play {
+    animation: showInfo .3s calc(var(--animationTime)/2) both;
+}
+
+
+@keyframes puckMove {
+
+    0% {
+        top: calc(50% - var(--puckSize)/2);
+        left: calc(50% - var(--puckSize)/2);
+    }
+
+    10% {
+        /* top: 340px; */
+        /* left: 575px; */
+        top: calc(50% - var(--puckSize)/2);
+        left: calc(var(--gameDisplayWidth) - var(--playerFromEdge) - var(--playerWidth) - var(--puckSize));
+        box-shadow: 0 0 20px 10px red;
+    }
+
+    20% {
+        top: calc(50% - var(--puckSize)/2);
+        left: calc(var(--playerFromEdge) + var(--playerWidth));
+        box-shadow: 0 0 30px 10px blue;
+    }
+
+    30% {
+        top: calc(80% - var(--puckSize)/2);
+        left: calc(var(--gameDisplayWidth) - var(--playerFromEdge) - var(--playerWidth) - var(--puckSize));
+        box-shadow: 0 0 20px 10px red;
+    }
+
+    32% {
+        top: calc(100% - var(--puckSize));
+        left: calc(var(--gameDisplayWidth) - var(--gameDisplayWidth)/3);
+        box-shadow: 0 0 30px 10px green;
+    }
+
+    40% {
+        top: calc(30% - var(--puckSize)/2);
+        left: calc(var(--playerFromEdge) + var(--playerWidth));
+        box-shadow: 0 0 30px 10px blue;
+    }
+
+    42% {
+        top: calc(20% - var(--puckSize)/2);
+        left: calc(var(--gameDisplayWidth) - var(--playerFromEdge) - var(--playerWidth) - var(--puckSize));
+        box-shadow: 0 0 20px 10px red;
+    }
+
+    45% {
+        top: calc(85% - var(--puckSize)/2);
+        left: calc(var(--playerFromEdge) + var(--playerWidth));
+        color: white;
+        box-shadow: 0 0 30px 10px blue;
+
+    }
+
+    46% {
+        top: calc(85% - var(--puckSize)/2);
+        left: var(--gameDisplayWidth);
+        background-color: turquoise;
+        box-shadow: none;
+    }
+
+    99% {
+        color: white;
+    }
+
+    100% {
+        top: calc(85% - var(--puckSize)/2);
+        left: var(--gameDisplayWidth);
+        background-color: turquoise;
+    }
+}
+
+@keyframes playerOneActiv {
+
+    0% {
+        top: calc(50% - var(--playerHeight)/2);
+        left: var(--playerFromEdge);
+    }
+
+    38% {
+        top: calc(50% - var(--playerHeight)/2);
+        left: var(--playerFromEdge);
+    }
+
+    40% {
+        top: calc(30% - var(--puckSize)/2);
+    }
+
+    45% {
+        top: calc(85% - var(--puckSize)/2);
+    }
+
+    100% {
+        top: calc(50% - var(--playerHeight)/2);
+    }
+
+
+}
+
+
+@keyframes playerTwoActiv {
+    0% {
+        top: calc(50% - var(--playerHeight)/2);
+        right: var(--playerFromEdge);
+    }
+
+    10% {
+        top: calc(50% - var(--playerHeight)/2);
+        right: var(--playerFromEdge);
+    }
+
+    20% {
+        top: calc(50% - var(--playerHeight)/2);
+        right: var(--playerFromEdge);
+    }
+
+    28% {
+        top: calc(50% - var(--playerHeight)/2);
+
+    }
+
+    30% {
+        top: calc(80% - var(--playerHeight)/2);
+    }
+
+    42% {
+        top: calc(20% - var(--puckSize)/2);
+    }
+
+    43% {
+        top: calc(60% - var(--puckSize)/2);
+    }
+
+    100% {
+        top: calc(50% - var(--playerHeight)/2);
+    }
+
+}
+
+
+@keyframes showInfo {
+
+    0% {
+        transform: scale(0);
+    }
+
+    50% {
+        transform: scale(1)
+    }
+
+    100% {
+        transform: scale(1)
+    }
+}
