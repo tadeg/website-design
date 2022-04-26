@@ -17,7 +17,7 @@
   - linear-gradient
 
 - #### Additional links
-  - [GitHub preview](#)
+  - [GitHub preview](https://htmlpreview.github.io/?https://github.com/tadeg/website-design/blob/main/pr0004-air-hockey/index.html)
   - [CodePen work](https://codepen.io/tadeT/pen/dyJBRyw)
     
 - #### Inspired by
