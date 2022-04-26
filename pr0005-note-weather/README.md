@@ -2,7 +2,7 @@
 ## note-weather
 
 - #### Description
-  Notes and todo list with weather information section and some ideas displayed in ramdom mode.
+  Notes and todo list with weather information section and some ideas displayed in random mode.
 
 - #### Technologies, libraries
   - HTML
