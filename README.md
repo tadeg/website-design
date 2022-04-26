@@ -77,6 +77,17 @@ This repository contains author's portfolio of front-end development amateur, ho
 </ul>
 </details>
 
+#### [pr0004-air-hockey](https://github.com/tadeg/website-design/tree/main/pr0004-air-hockey)
+<details>
+<summary>Specification</summary>
+<ul>
+<li>Description:  An animation of an air hockey game</li>
+<li>Technologies, libraries: HTML, CSS, jQuery</li>
+<li>Main concepts, properties: keyframes, animation, position, transform, linear-gradient</li>
+<li>Published: 2022.04</li>
+</ul>
+</details>
+
 ## Mockups
 #### [mk0001-gugafotografia.pl](https://github.com/tadeg/website-design/tree/main/mockups/mk0001-gugafotografia.pl)
 
