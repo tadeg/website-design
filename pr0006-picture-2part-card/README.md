@@ -19,7 +19,7 @@
 
 
 - #### Additional links
-  - [GitHub preview](#)
+  - [GitHub preview](https://htmlpreview.github.io/?https://github.com/tadeg/website-design/blob/main/pr0006-picture-2part-card/index.html)
   - [CodePen work](https://codepen.io/tadeT/pen/BaYapov)
     
 - #### Inspired by
