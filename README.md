@@ -81,7 +81,7 @@ This repository contains author's portfolio of front-end development amateur, ho
 <details>
 <summary>Specification</summary>
 <ul>
-<li>Description:  An animation of an air hockey game</li>
+<li>Description: An animation of an air hockey game</li>
 <li>Technologies, libraries: HTML, CSS, jQuery</li>
 <li>Main concepts, properties: keyframes, animation, position, transform, linear-gradient</li>
 <li>Published: 2022.04</li>
@@ -92,9 +92,20 @@ This repository contains author's portfolio of front-end development amateur, ho
 <details>
 <summary>Specification</summary>
 <ul>
-<li>Description:  Notes and todo list with weather information section and some ideas displayed in random mode</li>
+<li>Description: Notes and todo list with weather information section and some ideas displayed in random mode</li>
 <li>Technologies, libraries: HTML, CSS, JS, API</li>
 <li>Main concepts, properties: flexbox, input, axios (get, then, catch), createElement, append, e.target</li>
+<li>Published: 2022.04</li>
+</ul>
+</details>
+
+#### [pr0006-picture-2part-card](https://github.com/tadeg/website-design/tree/main/pr0006-picture-2part-card)
+<details>
+<summary>Specification</summary>
+<ul>
+<li>Description: Two-part card with animations that uses 3d effect</li>
+<li>Technologies, libraries: HTML, CSS, JS</li>
+<li>Main concepts, properties: perspective, transform-style: preserve-3d, flexbox, keyframes, animation, position</li>
 <li>Published: 2022.04</li>
 </ul>
 </details>
