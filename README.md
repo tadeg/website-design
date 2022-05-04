@@ -110,6 +110,17 @@ This repository contains author's portfolio of front-end development amateur, ho
 </ul>
 </details>
 
+#### [pr0007-quantities-converter](https://github.com/tadeg/website-design/tree/main/pr0007-quantities-converter)
+<details>
+<summary>Specification</summary>
+<ul>
+<li>Description: Converter of physical quantities (Meters to Feet, Centimeters to Inches, Kilometers to Miles, Celsius to Fahrenheit, Kilograms to Pounds, Grams to Ounces)</li>
+<li>Technologies, libraries: HTML, CSS, JS</li>
+<li>Main concepts, properties: flexbox, input, innerHTML, physical conversion formulas</li>
+<li>Published: 2022.05</li>
+</ul>
+</details>
+
 ## Mockups
 #### [mk0001-gugafotografia.pl](https://github.com/tadeg/website-design/tree/main/mockups/mk0001-gugafotografia.pl)
 
