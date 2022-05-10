@@ -121,6 +121,18 @@ This repository contains author's portfolio of front-end development amateur, ho
 </ul>
 </details>
 
+
+#### [pr0008-clock](https://github.com/tadeg/website-design/tree/main/pr0008-clock)
+<details>
+<summary>Specification</summary>
+<ul>
+<li>Description: Clock</li>
+<li>Technologies, libraries: HTML, CSS, JS</li>
+<li>Main concepts, properties: flexbox, transform, new Date, getHours, getMinutes, getSeconds</li>
+<li>Published: 2022.05</li>
+</ul>
+</details>
+
 ## Mockups
 #### [mk0001-gugafotografia.pl](https://github.com/tadeg/website-design/tree/main/mockups/mk0001-gugafotografia.pl)
 
