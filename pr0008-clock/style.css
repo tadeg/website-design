@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Koulen', Arial;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: black; */
+}
+
+.airclock {
+    position: absolute;
+    width: 60vw;
+    height: 60vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-image: linear-gradient(rgb(33, 44, 107), rgb(40, 67, 219));
+    box-shadow: 5px 5px 10px yellow, -5px -5px 10px red;
+}
+
+.timevector {
+    width: inherit;
+    height: inherit;
+    position: relative;
+}
+
+.timevector div {
+    position: absolute;
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 5px 1px 30px lightblue;
+}
+
+.twelve {
+    top: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.three {
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.six {
+    bottom: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.nine {
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+
+.hand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: inherit;
+    height: inherit;
+}
+
+.hand::before {
+    content: "";
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px lightblue;
+    z-index: 10;
+}
+
+.hand div {
+    width: 0.7rem;
+    height: 35%;
+    background-color: aqua;
+    position: absolute;
+    bottom: 50%;
+    box-shadow: 5px 1px 30px lightblue;
+    border-radius: 100% 100% 0 0;
+    transform-origin: 50% 100%;
+    transform-origin: bottom center;
+}
+
+.hand .hours-hand {
+    height: 85px;
+    height: 30%;
+    transform: rotate(90deg);
+}
+
+.hand .seconds-hand {
+    background-color: gold;
+    transform: rotate(15deg);
+}
+
+
+.dayli h2 {
+    margin-top: 1vh;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.today {
+    color: lightblue
+}
