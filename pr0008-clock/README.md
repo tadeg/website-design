@@ -16,8 +16,7 @@
   - getHours, getMinutes, getSeconds
 
 - #### Additional links
-  - [GitHub preview](#)
-  - [CodePen work](X)
+  - [CodePen work](https://codepen.io/tadeT/pen/abqNQpQ)
     
 - #### Inspired by
     CodeAndCreate
