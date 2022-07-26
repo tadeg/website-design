@@ -8,7 +8,7 @@
 * [Mockups](#mockups)
 
 ## General info 
-This repository contains author's portfolio of front-end development amateur, hobby works. It covers links to author's **websites**, information about them (subject area, technologies and libraries used, language), works called '**short pieces**' and **mockup** part. Section Short pieces concerning small works, projects, concepts includes links to source codes, descriptions, information about technologies and libraries used and main concepts, properties that are applied in a piece.
+This repository contains author's portfolio of front-end development amateur, hobby works. It covers links to author's **websites**, **websites prototypes**, information about them (subject area, technologies and libraries used, language), works called '**short pieces**' and **mockup** part. Section Short pieces concerning small works, projects, concepts includes links to source codes, descriptions, information about technologies and libraries used and main concepts, properties that are applied in a piece.
 
 ## Websites
 
@@ -41,6 +41,19 @@ This repository contains author's portfolio of front-end development amateur, ho
   - Techologies, libraries: HTML, CSS
   - Langugage: en
   - [x] Published: 2021.10
+
+## Websites prototypes
+
+> #### [Car Wash "High Gloss"](https://www.tadoe.pl/tadoe/prototypes/carwash/index.html#services)
+<details>
+<summary>Specification</summary>
+<ul>
+<li>Subject area: Business Services: Car Washing (of fictional Business Unit)</li>
+<li>Technologies, libraries: HTML, CSS, JS</li>
+<li>Langugage: en</li>
+<li>Published: 2022.07</li>
+</ul>
+</details>
 
 ## Short pieces 
 
@@ -120,7 +133,6 @@ This repository contains author's portfolio of front-end development amateur, ho
 <li>Published: 2022.05</li>
 </ul>
 </details>
-
 
 #### [pr0008-clock](https://github.com/tadeg/website-design/tree/main/pr0008-clock)
 <details>
