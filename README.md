@@ -44,7 +44,7 @@ This repository contains author's portfolio of front-end development amateur, ho
 
 ## Websites prototypes
 
-> #### [Car Wash "High Gloss"](https://www.tadoe.pl/tadoe/prototypes/carwash/index.html#services)
+> #### [Car Wash "High Gloss"](https://www.tadoe.pl/tadoe/prototypes/carwash/index.html)
 <details>
 <summary>Specification</summary>
 <ul>
