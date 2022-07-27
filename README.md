@@ -56,6 +56,17 @@ This repository contains author's portfolio of front-end development amateur, ho
 </ul>
 </details>
 
+> #### [Quick Clean](https://www.tadoe.pl/tadoe/prototypes/quickclean/index.html)
+<details>
+<summary>Specification</summary>
+<ul>
+<li>Subject area: Business Services: Furniture and car upholstery cleaning (of fictional Business Unit)</li>
+<li>Technologies, libraries: HTML, CSS, JS</li>
+<li>Langugage: en</li>
+<li>Published: 2022.07</li>
+</ul>
+</details>
+
 ## Short pieces 
 
 #### [pr0001-photographic-film-concept](https://github.com/tadeg/website-design/tree/main/pr0001-photographic-film-concept)
