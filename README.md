@@ -29,7 +29,7 @@ This repository contains author's portfolio of front-end development amateur, ho
   - Subject area: Railways, Photography
   - Techologies, libraries: HTML, CSS, JS, Lightbox
   - Langugage: pl
-  - Customer: Website made for railway enthusiast (family member)
+  - Customer: Railway enthusiast (family member)
   - [x] Published: 2022.09
 
 > ### www.naszerysunki.pl
