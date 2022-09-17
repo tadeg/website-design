@@ -24,6 +24,13 @@ This repository contains author's portfolio of front-end development amateur, ho
   - Techologies, libraries: HTML, CSS, JS, SASS, Lightbox
   - Langugage: pl/en
   - [x] Published: 2022.02
+  
+  > ### www.fotoprzegladkolejowy.pl
+  - Subject area: Railways, Photography
+  - Techologies, libraries: HTML, CSS, JS, Lightbox
+  - Langugage: pl
+  - Customer: Website made for railway enthusiast (family member)
+  - [x] Published: 2022.09
 
 > ### www.naszerysunki.pl
   - Subject area: Drawings made for fun
