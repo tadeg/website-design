@@ -31,7 +31,13 @@ This repository contains author's portfolio of front-end development amateur, ho
   - Langugage: pl
   - Customer: Railway enthusiast (family member)
   - [x] Published: 2022.09
-
+  
+  > ### https://tadeg.github.io/rzutokanasudety
+  - Subject area: Mountains, Photography
+  - Techologies, libraries: React, JS, HTML, CSS
+  - Link to repository: https://github.com/tadeg/rzutokanasudety
+  - Status: Under construction
+  
 > ### www.naszerysunki.pl
   - Subject area: Drawings made for fun
   - Techologies, libraries: HTML, CSS, JS, jQuery, Lightbox
