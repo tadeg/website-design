@@ -32,7 +32,7 @@ This repository contains author's portfolio of front-end development amateur, ho
   - Customer: Railway enthusiast (family member)
   - [x] Published: 2022.09
   
-  > ### https://tadeg.github.io/rzutokanasudety
+  > ### [rzutokanasudety](https://tadeg.github.io/rzutokanasudety)
   - Subject area: Mountains, Photography
   - Techologies, libraries: React, JS, HTML, CSS
   - Link to repository: https://github.com/tadeg/rzutokanasudety
