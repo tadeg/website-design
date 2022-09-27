@@ -13,11 +13,19 @@ This repository contains author's portfolio of front-end development amateur, ho
 
 ## Websites
 
-> ### www.gugafotografia.pl
-  - Subject area: Photography
-  - Techologies, libraries: HTML, CSS
+> ### [rzutokanasudety](https://tadeg.github.io/rzutokanasudety)
+  - Subject area: Mountains, Photography
+  - Techologies, libraries: React, JS, HTML, CSS
   - Langugage: pl
-  - [x] Published: 2021.08
+  - GitHub repository: https://github.com/tadeg/rzutokanasudety
+  - [x] Published: 2022.09
+  
+> ### www.fotoprzegladkolejowy.pl
+  - Subject area: Railways, Photography
+  - Techologies, libraries: HTML, CSS, JS, Lightbox
+  - Langugage: pl
+  - Customer: Railway enthusiast (family member)
+  - [x] Published: 2022.09
   
 > ### www.gugafoto.pl
   - Subject area: Photography
@@ -25,26 +33,19 @@ This repository contains author's portfolio of front-end development amateur, ho
   - Langugage: pl/en
   - [x] Published: 2022.02
   
-  > ### www.fotoprzegladkolejowy.pl
-  - Subject area: Railways, Photography
-  - Techologies, libraries: HTML, CSS, JS, Lightbox
+> ### www.gugafotografia.pl
+  - Subject area: Photography
+  - Techologies, libraries: HTML, CSS
   - Langugage: pl
-  - Customer: Railway enthusiast (family member)
-  - [x] Published: 2022.09
-  
-  > ### [rzutokanasudety](https://tadeg.github.io/rzutokanasudety)
-  - Subject area: Mountains, Photography
-  - Techologies, libraries: React, JS, HTML, CSS
-  - Link to repository: https://github.com/tadeg/rzutokanasudety
-  - Status: Under construction
-  
+  - [x] Published: 2021.08
+    
 > ### www.naszerysunki.pl
   - Subject area: Drawings made for fun
   - Techologies, libraries: HTML, CSS, JS, jQuery, Lightbox
   - Langugage: pl
   - [x] Published: 2022.02
   
- > ### www.fotofilozofia.pl
+> ### www.fotofilozofia.pl
   - Subject area: Texts attempting to merge photographic themes with philosophical concepts
   - Techologies, libraries: HTML, CSS
   - Langugage: pl
