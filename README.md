@@ -15,7 +15,7 @@ This repository contains author's portfolio of front-end development amateur, ho
 
 > ### [rzutokanasudety](https://tadeg.github.io/rzutokanasudety)
   - Subject area: Mountains, Photography
-  - Techologies, libraries: React, JS, HTML, CSS
+  - Techologies, libraries: React, JS, JSX, HTML, CSS
   - Langugage: pl
   - GitHub repository: https://github.com/tadeg/rzutokanasudety
   - [x] Published: 2022.09
@@ -78,6 +78,18 @@ This repository contains author's portfolio of front-end development amateur, ho
 <li>Technologies, libraries: HTML, CSS, JS</li>
 <li>Langugage: en</li>
 <li>Published: 2022.07</li>
+</ul>
+</details>
+
+> #### [Housing Estate Library "Reader](https://tadeg.github.io/housing-estate-library/)
+<details>
+<summary>Specification</summary>
+<ul>
+<li>Subject area: Public Services: Library (of fictional Unit)</li>
+<li>Technologies, libraries: React, PropTypes, Bootstrap, JS, JSX, HTML, CSS</li>
+<li>Langugage: en</li>
+<li>GitHub repository: https://github.com/tadeg/rzutokanasudety</li>
+<li>Status: under construction</li>
 </ul>
 </details>
 
