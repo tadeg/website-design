@@ -81,7 +81,7 @@ This repository contains author's portfolio of front-end development amateur, ho
 </ul>
 </details>
 
-> #### [Housing Estate Library "Reader](https://tadeg.github.io/housing-estate-library/)
+> #### [Housing Estate Library "Reader"](https://tadeg.github.io/housing-estate-library/)
 <details>
 <summary>Specification</summary>
 <ul>
