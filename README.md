@@ -5,7 +5,7 @@
 * [General info](#general-info)
 * [Websites](#websites)
 * [Websites prototypes](#websites-prototypes)
-* [Websites on React](#websites-in-react)
+* [Websites in React](#websites-in-react)
 * [Short pieces](#short-pieces)
 * [Mockups](#mockups)
 
