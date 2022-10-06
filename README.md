@@ -5,7 +5,7 @@
 * [General info](#general-info)
 * [Websites](#websites)
 * [Websites prototypes](#websites-prototypes)
-* [Websites on React](#websites-on-react)
+* [Websites on React](#websites-in-react)
 * [Short pieces](#short-pieces)
 * [Mockups](#mockups)
 
@@ -75,7 +75,7 @@ This repository contains author's portfolio of front-end development amateur, ho
 </ul>
 </details>
 
-## Websites on React
+## Websites in React
 
 > ### [rzutokanasudety](https://tadeg.github.io/rzutokanasudety)
   - Subject area: Mountains, Photography
