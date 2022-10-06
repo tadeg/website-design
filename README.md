@@ -5,6 +5,7 @@
 * [General info](#general-info)
 * [Websites](#websites)
 * [Websites prototypes](#websites-prototypes)
+* [Websites on React](#websites-on-react)
 * [Short pieces](#short-pieces)
 * [Mockups](#mockups)
 
@@ -13,13 +14,12 @@ This repository contains author's portfolio of front-end development amateur, ho
 
 ## Websites
 
-> ### [rzutokanasudety](https://tadeg.github.io/rzutokanasudety)
-  - Subject area: Mountains, Photography
-  - Techologies, libraries: React, JS, JSX, HTML, CSS
-  - Langugage: pl
-  - GitHub repository: https://github.com/tadeg/rzutokanasudety
-  - [x] Published: 2022.09
-  
+> ### www.gugafoto.pl
+  - Subject area: Photography
+  - Techologies, libraries: HTML, CSS, JS, SASS, Lightbox
+  - Langugage: pl/en
+  - [x] Published: 2022.02
+
 > ### www.fotoprzegladkolejowy.pl
   - Subject area: Railways, Photography
   - Techologies, libraries: HTML, CSS, JS, Lightbox
@@ -27,29 +27,23 @@ This repository contains author's portfolio of front-end development amateur, ho
   - Customer: Railway enthusiast (family member)
   - [x] Published: 2022.09
   
-> ### www.gugafoto.pl
-  - Subject area: Photography
-  - Techologies, libraries: HTML, CSS, JS, SASS, Lightbox
-  - Langugage: pl/en
-  - [x] Published: 2022.02
-  
 > ### www.gugafotografia.pl
   - Subject area: Photography
   - Techologies, libraries: HTML, CSS
   - Langugage: pl
   - [x] Published: 2021.08
-    
-> ### www.naszerysunki.pl
-  - Subject area: Drawings made for fun
-  - Techologies, libraries: HTML, CSS, JS, jQuery, Lightbox
-  - Langugage: pl
-  - [x] Published: 2022.02
-  
+      
 > ### www.fotofilozofia.pl
   - Subject area: Texts attempting to merge photographic themes with philosophical concepts
   - Techologies, libraries: HTML, CSS
   - Langugage: pl
   - [x] Published: 2021.10
+
+> ### www.naszerysunki.pl
+  - Subject area: Drawings made for fun
+  - Techologies, libraries: HTML, CSS, JS, jQuery, Lightbox
+  - Langugage: pl
+  - [x] Published: 2022.02
 
 > ### www.sometext.pl
   - Subject area: Short essays in English
@@ -81,17 +75,21 @@ This repository contains author's portfolio of front-end development amateur, ho
 </ul>
 </details>
 
-> #### [Housing Estate Library "Reader"](https://tadeg.github.io/housing-estate-library/)
-<details>
-<summary>Specification</summary>
-<ul>
-<li>Subject area: Public Services: Library (of fictional Unit)</li>
-<li>Technologies, libraries: React (including: PropTypes, Bootstrap, React Router), JS, JSX, HTML, CSS</li>
-<li>Langugage: en</li>
-<li>GitHub repository: https://github.com/tadeg/rzutokanasudety</li>
-<li>Status: under construction</li>
-</ul>
-</details>
+## Websites on React
+
+> ### [rzutokanasudety](https://tadeg.github.io/rzutokanasudety)
+  - Subject area: Mountains, Photography
+  - Techologies, libraries: React, JS, JSX, HTML, CSS
+  - Langugage: pl
+  - GitHub repository: https://github.com/tadeg/rzutokanasudety
+  - [x] Published: 2022.09
+
+> ### [Housing Estate Library "Reader" - website prototype](https://tadeg.github.io/housing-estate-library/)
+  - Subject area: Public Services: Library (of fictional Unit)
+  - Technologies, libraries: React (including: Bootstrap, PropTypes, React Router), JS, JSX, HTML, CSS
+  - Langugage: en
+  - GitHub repository: https://github.com/tadeg/rzutokanasudety
+  - [x] Status: under construction
 
 ## Short pieces 
 
