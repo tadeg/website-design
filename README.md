@@ -79,14 +79,14 @@ This repository contains author's portfolio of front-end development amateur, ho
 
 > ### [rzutokanasudety](https://tadeg.github.io/rzutokanasudety)
   - Subject area: Mountains, Photography
-  - Techologies, libraries: React (including React Router), JS, JSX, HTML, CSS
+  - Techologies, libraries: React (including React Router), JS, JSX, HTML, CSS, API
   - Langugage: pl
   - GitHub repository: https://github.com/tadeg/rzutokanasudety
   - [x] Published: 2022.09
 
 > ### [Housing Estate Library "Reader" - website prototype](https://tadeg.github.io/housing-estate-library/)
   - Subject area: Public Services: Library (of fictional Unit)
-  - Technologies, libraries: React (including: Bootstrap, PropTypes, React Router), JS, JSX, HTML, CSS
+  - Technologies, libraries: React (including: Bootstrap, PropTypes, Formik, React Router), JS, JSX, HTML, CSS, API
   - Langugage: en
   - GitHub repository: https://github.com/tadeg/housing-estate-library
   - [x] Status: under construction
