@@ -86,7 +86,7 @@ This repository contains author's portfolio of front-end development amateur, ho
 <summary>Specification</summary>
 <ul>
 <li>Subject area: Public Services: Library (of fictional Unit)</li>
-<li>Technologies, libraries: React (including: PropTypes, Bootstrap), JS, JSX, HTML, CSS</li>
+<li>Technologies, libraries: React (including: PropTypes, Bootstrap, React Router), JS, JSX, HTML, CSS</li>
 <li>Langugage: en</li>
 <li>GitHub repository: https://github.com/tadeg/rzutokanasudety</li>
 <li>Status: under construction</li>
