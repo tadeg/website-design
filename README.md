@@ -86,7 +86,7 @@ This repository contains author's portfolio of front-end development amateur, ho
 
 > ### [Housing Estate Library "Reader" - website prototype](https://tadeg.github.io/housing-estate-library/)
   - Subject area: Public Services: Library (of fictional Unit)
-  - Technologies, libraries: React (including: Bootstrap, Formik, Yup, React Router), JS, JSX, HTML, CSS, API
+  - Technologies, libraries: React (including: Bootstrap, Formik, Yup, React Router), Redux, JS, JSX, HTML, CSS, API
   - Langugage: en
   - GitHub repository: https://github.com/tadeg/housing-estate-library
   - [x] Status: under construction
