@@ -14,31 +14,31 @@ This repository contains author's portfolio of front-end development amateur, ho
 
 ## Websites
 
-> ### www.gugafotografia.pl
+> ### http://www.gugafotografia.pl
   - Subject area: Photography
   - Techologies, libraries: HTML, CSS
   - Langugage: pl
   - [x] Published: 2021.08
 
-> ### www.fotofilozofia.pl
+> ### http://www.fotofilozofia.pl
   - Subject area: Texts attempting to merge photographic themes with philosophical concepts
   - Techologies, libraries: HTML, CSS
   - Langugage: pl
   - [x] Published: 2021.10
 
-> ### www.naszerysunki.pl
+> ### http://www.naszerysunki.pl
   - Subject area: Drawings made for fun
   - Techologies, libraries: HTML, CSS, JS, jQuery, Lightbox
   - Langugage: pl
   - [x] Published: 2022.02
 
-> ### www.gugafoto.pl
+> ### http://www.gugafoto.pl
   - Subject area: Photography
   - Techologies, libraries: HTML, CSS, JS, SASS, Lightbox
   - Langugage: pl/en
   - [x] Published: 2022.02
 
-> ### www.fotoprzegladkolejowy.pl
+> ### http://www.fotoprzegladkolejowy.pl
   - Subject area: Railways, Photography
   - Techologies, libraries: HTML, CSS, JS, Lightbox
   - Langugage: pl
@@ -47,7 +47,7 @@ This repository contains author's portfolio of front-end development amateur, ho
   
 ## Websites prototypes
 
-> #### [Car Wash "High Gloss"](https://www.tadoe.pl/tadoe/carwash/index.html)
+> #### [Car Wash "High Gloss"](http://www.tadoe.pl/tadoe/carwash/index.html)
 <details>
 <summary>Specification</summary>
 <ul>
@@ -58,7 +58,7 @@ This repository contains author's portfolio of front-end development amateur, ho
 </ul>
 </details>
 
-> #### [Quick Clean](https://www.tadoe.pl/tadoe/quickclean/index.html)
+> #### [Quick Clean](http://www.tadoe.pl/tadoe/quickclean/index.html)
 <details>
 <summary>Specification</summary>
 <ul>
