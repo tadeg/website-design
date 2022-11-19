@@ -53,7 +53,7 @@ This repository contains author's portfolio of front-end development amateur, ho
 
 ## Websites prototypes
 
-> #### [Car Wash "High Gloss"](https://www.tadoe.pl/tadoe/prototypes/carwash/index.html)
+> #### [Car Wash "High Gloss"](https://www.tadoe.pl/tadoe/carwash/index.html)
 <details>
 <summary>Specification</summary>
 <ul>
@@ -64,7 +64,7 @@ This repository contains author's portfolio of front-end development amateur, ho
 </ul>
 </details>
 
-> #### [Quick Clean](https://www.tadoe.pl/tadoe/prototypes/quickclean/index.html)
+> #### [Quick Clean](https://www.tadoe.pl/tadoe/quickclean/index.html)
 <details>
 <summary>Specification</summary>
 <ul>
