@@ -14,6 +14,24 @@ This repository contains author's portfolio of front-end development amateur, ho
 
 ## Websites
 
+> ### www.gugafotografia.pl
+  - Subject area: Photography
+  - Techologies, libraries: HTML, CSS
+  - Langugage: pl
+  - [x] Published: 2021.08
+
+> ### www.fotofilozofia.pl
+  - Subject area: Texts attempting to merge photographic themes with philosophical concepts
+  - Techologies, libraries: HTML, CSS
+  - Langugage: pl
+  - [x] Published: 2021.10
+
+> ### www.naszerysunki.pl
+  - Subject area: Drawings made for fun
+  - Techologies, libraries: HTML, CSS, JS, jQuery, Lightbox
+  - Langugage: pl
+  - [x] Published: 2022.02
+
 > ### www.gugafoto.pl
   - Subject area: Photography
   - Techologies, libraries: HTML, CSS, JS, SASS, Lightbox
@@ -27,30 +45,6 @@ This repository contains author's portfolio of front-end development amateur, ho
   - Customer: Railway enthusiast (family member)
   - [x] Published: 2022.09
   
-> ### www.gugafotografia.pl
-  - Subject area: Photography
-  - Techologies, libraries: HTML, CSS
-  - Langugage: pl
-  - [x] Published: 2021.08
-      
-> ### www.fotofilozofia.pl
-  - Subject area: Texts attempting to merge photographic themes with philosophical concepts
-  - Techologies, libraries: HTML, CSS
-  - Langugage: pl
-  - [x] Published: 2021.10
-
-> ### www.naszerysunki.pl
-  - Subject area: Drawings made for fun
-  - Techologies, libraries: HTML, CSS, JS, jQuery, Lightbox
-  - Langugage: pl
-  - [x] Published: 2022.02
-
-> ### www.sometext.pl
-  - Subject area: Short essays in English
-  - Techologies, libraries: HTML, CSS
-  - Langugage: en
-  - [x] Published: 2021.10
-
 ## Websites prototypes
 
 > #### [Car Wash "High Gloss"](https://www.tadoe.pl/tadoe/carwash/index.html)
