@@ -25,6 +25,12 @@ This repository contains author's portfolio of front-end development amateur, ho
   - Techologies, libraries: HTML, CSS
   - Langugage: pl
   - [x] Published: 2021.10
+  
+> ### www.sometext.pl
+  - Subject area: Short essays in English
+  - Techologies, libraries: HTML, CSS
+  - Langugage: en
+  - [x] Published: 2021.10
 
 > ### www.naszerysunki.pl
   - Subject area: Drawings made for fun
