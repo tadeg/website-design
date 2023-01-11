@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stopwatch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anybody:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+
+        <!-- Section 1 -->
+
+        <div class="main-wrap">
+
+            <p class="logograph">
+                <i class="fa-solid fa-person-running"></i>
+            </p>
+
+            <p class="info">
+                <i class="fa-solid fa-info"></i>
+                <!-- <i class="fa-solid fa-circle-info"></i> -->
+            </p>
+
+            <h1>Stopwatch</h1>
+
+            <div class="timing">0:00</div>
+            <div class="timekeeping">0:00</div>
+
+            <div class="btns">
+                <button class="btn start"><i class="fa-solid fa-play"></i></button>
+                <button class="btn pause"><i class="fa-solid fa-pause"></i></button>
+                <button class="btn stop"><i class="fa-solid fa-stop"></i></button>
+                <button class="btn results">my timekeeping</button>
+            </div>
+
+        </div>
+
+        <!-- End of Section 1 -->
+
+        <!-- Section 2 -->
+
+        <div class="modal-timekeeping">
+
+            <div class="modal-tk">
+                <h2>My timekeeping:</h2>
+                <ul class="list-timekeeping"></ul>
+                <div class="btns-timekeeping">
+                    <div class="btn-clear">Clear</div>
+                    <div class="btn-close-modal-timekeeping">Close</div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- End of Section 2 -->
+
+
+        <!-- Section 3 -->
+
+        <div class="modal-wrap">
+
+            <div class="modal">
+                <h2>Information:</h2>
+                <p><i class="fa-solid fa-play"></i> - start</p>
+                <p><i class="fa-solid fa-pause"></i> - pause</p>
+                <p><i class="fa-solid fa-stop"></i> - stop</p>
+                <p><strong>My timekeeping</strong> - show all timekeeping</p>
+                <p><strong>Clear</strong> - clear all (with history)</p>
+                <div class="btn-close-modal">Close</div>
+            </div>
+        </div>
+
+        <!-- End of Section 3 -->
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
