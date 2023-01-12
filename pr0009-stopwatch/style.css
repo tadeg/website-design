@@ -1,0 +1,271 @@
+/* Reset and Common Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    outline: none;
+}
+
+html {
+    font-size: 10px;
+    font-weight: 400;
+    font-family: 'Anybody', Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --color-ver1: rgb(75, 75, 191);
+    --color-ver2: rgb(255, 0, 0);
+}
+
+/* End of Reset and Common Styles */
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(185, 234, 247);
+    background-color: rgb(224, 248, 255);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45rem;
+    height: 45rem;
+    background-color: rgb(208, 211, 255);
+    box-shadow: 2rem 2rem 3rem rgb(200, 200, 200);
+    border: 1.5rem solid var(--color-ver1);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.5s;
+    position: relative;
+}
+
+
+/* Section 1  */
+
+.main-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 40%;
+}
+
+.logograph {
+    position: absolute;
+    top: 1rem;
+    font-size: 3rem;
+    color: var(--color-ver1);
+}
+
+.info {
+    position: absolute;
+    bottom: 1rem;
+    font-size: 3rem;
+    color: var(--color-ver1);
+    transition: color .3s;
+}
+
+.info:hover {
+    color: var(--color-ver2)
+}
+
+
+h1 {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: red;
+    color: var(--color-ver2);
+}
+
+.timing {
+    font-size: 4rem;
+    width: 30rem;
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+    background-color: #444;
+}
+
+.timekeeping {
+    padding: 1rem;
+    font-size: 2rem;
+    color: var(--color-ver2)
+        /* background-color: sandybrown; */
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: .3rem;
+}
+
+.btn {
+    width: 30%;
+    margin: .3rem;
+    padding: .5rem;
+    font-size: 1.5rem;
+    border-radius: .5rem;
+    color: var(--color-ver1);
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color .3s;
+}
+
+.results {
+    flex-grow: 1;
+    text-transform: uppercase;
+
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: rgb(95, 100, 170);
+    color: #fff;
+}
+
+.start:hover {
+    color: rgb(47, 255, 92);
+}
+
+.pause:hover {
+    color: rgb(255, 255, 0);
+}
+
+.stop:hover {
+    color: rgb(249, 47, 47);
+}
+
+
+
+/* End of Section 1 */
+
+
+/* Section 2 */
+
+.modal-timekeeping {
+    display: block;
+    display: none;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .8);
+    /* border: .5rem solid var(--color-ver2); */
+}
+
+.list-timekeeping {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.4rem;
+    color: #fff;
+}
+
+.list-timekeeping span {
+    font-weight: 900;
+}
+
+.btns-timekeeping {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* End of Section 2 */
+
+
+
+/* Section 3 */
+
+.modal-wrap {
+    display: block;
+    display: none;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .8);
+    /* border: .5rem solid var(--color-ver2); */
+}
+
+.modal,
+.modal-tk {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    padding: 3rem;
+    color: #fff;
+    text-align: left;
+    border-radius: 1rem;
+    background-color: rgba(174, 40, 40, 0.6);
+}
+
+.modal-tk {
+    text-align: center;
+}
+
+.modal h2,
+.modal-tk h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.modal p,
+.modal-tk p {
+    font-size: 1.2rem;
+    margin: 0 0 1rem 1rem;
+}
+
+.btn-close-modal,
+.btn-close-modal-timekeeping,
+.btn-clear {
+    display: block;
+    margin: 2rem auto 0;
+    padding: 1rem 2rem;
+    width: 40%;
+    font-size: 1.4rem;
+    background-color: transparent;
+    border-radius: .5rem;
+    outline: none;
+    cursor: pointer;
+    border: 0.1rem solid #fff;
+    text-align: center;
+    color: #fff;
+}
+
+.modal .btn-close-modal:hover,
+.btn-close-modal-timekeeping:hover,
+.btn-clear:hover {
+    /* background-color: var(--color-ver1); */
+    background-color: rgba(187, 48, 48, 0.8);
+}
+
+.modal-animation {
+    animation: display-modal .5s;
+}
+
+@keyframes display-modal {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/* End of Section 3 */
