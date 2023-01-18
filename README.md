@@ -192,6 +192,17 @@ This repository contains author's portfolio of front-end development amateur, ho
 </ul>
 </details>
 
+#### [pr0010-calculator](https://github.com/tadeg/website-design/tree/main/pr0010-calculator)
+<details>
+<summary>Specification</summary>
+<ul>
+<li>Description: Calculator</li>
+<li>Technologies, libraries: HTML, CSS, JS</li>
+<li>Main concepts, properties: flexbox, linear-gradient, eval</li>
+<li>Published: 2023.01</li>
+</ul>
+</details>
+
 ## Mockups
 #### [mk0001-gugafotografia.pl](https://github.com/tadeg/website-design/tree/main/mockups/mk0001-gugafotografia.pl)
 
