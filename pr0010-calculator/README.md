@@ -15,7 +15,7 @@
 
 - #### Additional links
   - [GitHub preview](#)
-  - [CodePen work]([#](https://codepen.io/tadeT/pen/KKByWdV))
+  - [CodePen work]([#](https://codepen.io/tadeT/pen/KKByWdV)
     
 - #### Inspired by
     Ania Kubów, 
