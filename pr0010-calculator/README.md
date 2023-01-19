@@ -17,9 +17,5 @@
   - [GitHub preview](https://htmlpreview.github.io/?https://github.com/tadeg/website-design/blob/main/pr0010-calculator/index.html)
   - [CodePen work](https://codepen.io/tadeT/pen/KKByWdV)
     
-- #### Inspired by
-    Ania Kubów, 
-    CodeAndCreate
-
 - #### Published 
     2023.01
