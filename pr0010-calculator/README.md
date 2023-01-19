@@ -11,6 +11,7 @@
 - #### Main concepts, properties
   - flexbox
   - linear-gradient
+  - textContent 
   - eval
 
 - #### Additional links
