@@ -1,0 +1,71 @@
+/* Reset and Common Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    outline: none;
+}
+
+html {
+    font-size: 10px;
+}
+
+:root {
+    --color-ft-ver1: #fff;
+    --color-bg-ver1: #333;
+}
+
+/* End of Reset and Common Styles */
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-ft-ver1);
+    background: linear-gradient(45deg, rgb(21, 21, 194), rgb(248, 20, 20));
+    /* background: url(./img/bg.jpg); */
+    /* background-size: cover; */
+}
+
+.clock {
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1rem 2rem 2rem rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.name {
+    padding: 1rem 0;
+    font-family: 'Audiowide', cursive;
+    font-size: 4rem;
+    text-transform: uppercase;
+    background-color: var(--color-bg-ver1);
+}
+
+.show {
+    padding: 1rem 0;
+    font-family: 'Thasadith', sans-serif;
+    font-weight: 400;
+    background-color: rgba(58, 11, 53, 0.8);
+    /* background-color: rgba(11, 58, 28, 0.5); */
+}
+
+.date {
+    font-size: 2rem;
+    background-color: rgba(33, 107, 176, 0.3);
+    /* background-color: rgba(25, 13, 44, 0.3); */
+
+}
+
+.time {
+    padding: 2rem 0;
+    font-size: 5rem;
+}
