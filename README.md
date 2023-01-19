@@ -203,6 +203,17 @@ This repository contains author's portfolio of front-end development amateur, ho
 </ul>
 </details>
 
+#### [pr0011-digital-clock](https://github.com/tadeg/website-design/tree/main/pr0011-digital-clock)
+<details>
+<summary>Specification</summary>
+<ul>
+<li>Description: Digital clock</li>
+<li>Technologies, libraries: HTML, CSS, JS</li>
+<li>Main concepts, properties: flexbox, new Date, getDay, getDate, getMonth, getFullYear, getHours, getMinutes, getSeconds, setInterval</li>
+<li>Published: 2023.01</li>
+</ul>
+</details>
+
 ## Mockups
 #### [mk0001-gugafotografia.pl](https://github.com/tadeg/website-design/tree/main/mockups/mk0001-gugafotografia.pl)
 
