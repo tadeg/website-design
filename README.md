@@ -214,6 +214,17 @@ This repository contains author's portfolio of front-end development amateur, ho
 </ul>
 </details>
 
+#### [pr0012-currency-widget](https://github.com/tadeg/website-design/tree/main/pr0012-currency-widget)
+<details>
+<summary>Specification</summary>
+<ul>
+<li>Description: Currency widget</li>
+<li>Technologies, libraries: HTML, CSS, JS, API</li>
+<li>Main concepts, properties: flexbox, fetch, toFixed</li>
+<li>Published: 2023.01</li>
+</ul>
+</details>
+
 ## Mockups
 #### [mk0001-gugafotografia.pl](https://github.com/tadeg/website-design/tree/main/mockups/mk0001-gugafotografia.pl)
 
