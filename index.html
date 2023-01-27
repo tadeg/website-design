@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Widget</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anybody:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+        <h2>Currency Widget</h2>
+        <h3>Check current exchange rates</h3>
+
+        <div class="widget">
+            <section class="section-1">
+                <input type="number" class="amnt-one" value="1">
+                <select id="curr-one">
+                    <option value="PLN" selected>PLN</option>
+                    <option value="USD">USD</option>
+                    <option value="GBP">GBP</option>
+                    <option value="EUR">EUR</option>
+                    <option value="CHF">CHF</option>
+                    <option value="CZK">CZK</option>
+                </select>
+            </section>
+
+            <button class="swap-btn">
+                <i class="fa-solid fa-arrows-rotate"></i>
+            </button>
+
+            <section class="section-2">
+                <input type="number" class="amnt-two" disabled>
+                <select id="curr-two">
+                    <option value="PLN">PLN</option>
+                    <option value="USD" selected>USD</option>
+                    <option value="GBP">GBP</option>
+                    <option value="EUR">EUR</option>
+                    <option value="CHF">CHF</option>
+                    <option value="CZK">CZK</option>
+                </select>
+            </section>
+
+        </div>
+
+        <p class="exch-rate-inf"></p>
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
