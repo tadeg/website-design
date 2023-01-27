@@ -1,7 +1,7 @@
 ## currency-widget
 
 - #### Description
-  Currency Widget
+  Currency widget
   
 - #### Technologies, libraries
   - HTML
