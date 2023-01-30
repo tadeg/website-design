@@ -14,7 +14,7 @@
   - innerHTML
 
 - #### Additional links
-  - [GitHub preview](#)
+  - [GitHub preview](https://htmlpreview.github.io/?https://github.com/tadeg/website-design/blob/main/pr0013-notes/index.html)
   - [CodePen work](https://codepen.io/tadeT/pen/WNKgdVM)
     
 - #### Published 
