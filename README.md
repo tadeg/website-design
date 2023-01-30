@@ -225,7 +225,7 @@ This repository contains author's portfolio of front-end development amateur, ho
 <ul>
 <li>Description: Notes</li>
 <li>Technologies, libraries: HTML, CSS, JS</li>
-<li>Main concepts, properties: select, options, textArea</li>
+<li>Main concepts, properties: flexbox, select, options, textArea, innerHTML</li>
 <li>Published: 2023.01</li>
 </ul>
 </details>
