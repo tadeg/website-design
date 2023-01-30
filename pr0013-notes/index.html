@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anybody:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <h2>notes</h2>
+        <div class="menu-btns">
+            <button class="add-item-btn"><i class="fa-regular fa-note-sticky"></i>New note</button>
+            <button class="delete-all-btn"><i class="fa-solid fa-trash"></i>Delete all</button>
+        </div>
+    </header>
+
+    <div class="notes-wrapper">
+        <!-- <div class="note" id="">
+            <div class="note-heading">
+                <h3 class="note-title">Note#1</h3>
+                <button class="delete-item-btn" onClick="deleteNote(${noteID})"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="note-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                itaque
+                eveniet
+                rerum iure est cupiditate.</div>
+        </div> -->
+    </div>
+
+
+    <div class="note-popup">
+        <h2>Add a note</h3>
+            <label for="theme">Select a theme:</label>
+            <select id="theme" onchange="selectValue()">
+                <option value="0" disabled selected>- select a theme -</option>
+                <option value="1">Job</option>
+                <option value="2">Hobby</option>
+                <option value="3">Reading</option>
+                <option value="4">Sport</option>
+                <option value="5">Shopping</option>
+            </select>
+
+            <label for="text">Enter content of a note:</label>
+            <textarea id="text"></textarea>
+
+            <p class="error-msg">Fill in all fields!</p>
+
+            <div class="popup-btns">
+                <button class="save-item-btn"><i class="fa-solid fa-floppy-disk"></i>Save</button>
+                <button class="cancel-btn"><i class="fa-solid fa-xmark"></i>Cancel</button>
+            </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
