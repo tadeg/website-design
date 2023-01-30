@@ -219,6 +219,17 @@ This repository contains author's portfolio of front-end development amateur, ho
 </ul>
 </details>
 
+#### [pr0013-notes](https://github.com/tadeg/website-design/tree/main/pr0013-notes)
+<details>
+<summary>Specification</summary>
+<ul>
+<li>Description: Notes</li>
+<li>Technologies, libraries: HTML, CSS, JS</li>
+<li>Main concepts, properties: select, options, textArea</li>
+<li>Published: 2023.01</li>
+</ul>
+</details>
+
 ## Mockups
 #### [mk0001-gugafotografia.pl](https://github.com/tadeg/website-design/tree/main/mockups/mk0001-gugafotografia.pl)
 
