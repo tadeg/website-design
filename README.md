@@ -230,6 +230,17 @@ This repository contains author's portfolio of front-end development amateur, ho
 </ul>
 </details>
 
+#### [pr0014-train-timetable-widget](https://github.com/tadeg/website-design/tree/main/pr0014-train-timetable-widget)
+<details>
+<summary>Specification</summary>
+<ul>
+<li>Description: Simulator of a train timetable widget</li>
+<li>Technologies, libraries: HTML, CSS, JS</li>
+<li>Main concepts, properties: table, keyframes, Array.from(), createElement, append</li>
+<li>Published: 2023.01</li>
+</ul>
+</details>
+
 ## Mockups
 #### [mk0001-gugafotografia.pl](https://github.com/tadeg/website-design/tree/main/mockups/mk0001-gugafotografia.pl)
 
