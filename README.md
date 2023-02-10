@@ -34,7 +34,7 @@ This repository contains author's portfolio of front-end development amateur, ho
 
 > ### www.gugafoto.pl
   - Subject area: Photography
-  - Techologies, libraries: HTML, CSS, JS, SASS, Lightbox
+  - Techologies, libraries: HTML, CSS, JS, Sass, Lightbox
   - Langugage: pl/en
   - [x] Published: 2022.02
 
