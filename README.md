@@ -40,7 +40,7 @@ This repository contains author's portfolio of front-end development amateur, ho
 
 > ### www.fotoprzegladkolejowy.pl
   - Subject area: Railways, Photography
-  - Techologies, libraries: HTML, CSS, JS, Lightbox
+  - Techologies, libraries: HTML, CSS, JS, Lightbox, Swiper
   - Langugage: pl
   - Customer: Railway enthusiast (family member)
   - [x] Published: 2022.09
