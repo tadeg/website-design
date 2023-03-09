@@ -45,11 +45,17 @@ This repository contains author's portfolio of front-end development amateur, ho
   - Customer: Railway enthusiast (family member)
   - [x] Published: 2022.09
   
- > ### www.gugart.pl
+> ### www.gugart.pl
   - Subject area: Technical writing examples texts
   - Technologies, libraries: HTML, CSS
   - Language: en
   - [x] Published: 2023.03
+  
+> ### www.sometext.pl
+  - Subject area: Short essays in English
+  - Technologies, libraries: HTML, CSS
+  - Language: en
+  - [x] Published: 2021.10
   
 ## Websites prototypes
 
