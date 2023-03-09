@@ -16,31 +16,31 @@ This repository contains author's portfolio of front-end development amateur, ho
 
 > ### www.gugafotografia.pl
   - Subject area: Photography
-  - Techologies, libraries: HTML, CSS
+  - Technologies, libraries: HTML, CSS
   - Language: pl
   - [x] Published: 2021.08
 
 > ### www.fotofilozofia.pl
   - Subject area: Texts attempting to merge photographic themes with philosophical concepts
-  - Techologies, libraries: HTML, CSS
+  - Technologies, libraries: HTML, CSS
   - Language: pl
   - [x] Published: 2021.10
   
 > ### www.naszerysunki.pl
   - Subject area: Drawings made for fun
-  - Techologies, libraries: HTML, CSS, JS, jQuery, Lightbox
+  - Technologies, libraries: HTML, CSS, JS, jQuery, Lightbox
   - Language: pl
   - [x] Published: 2022.02
 
 > ### www.gugafoto.pl
   - Subject area: Photography
-  - Techologies, libraries: HTML, CSS, JS, Sass, Lightbox
+  - Technologies, libraries: HTML, CSS, JS, Sass, Lightbox
   - Language: pl/en
   - [x] Published: 2022.02
 
 > ### www.fotoprzegladkolejowy.pl
   - Subject area: Railways, Photography
-  - Techologies, libraries: HTML, CSS, JS, Lightbox, Swiper
+  - Technologies, libraries: HTML, CSS, JS, Lightbox, Swiper
   - Language: pl
   - Customer: Railway enthusiast (family member)
   - [x] Published: 2022.09
@@ -73,7 +73,7 @@ This repository contains author's portfolio of front-end development amateur, ho
 
 > ### [rzutokanasudety](https://tadeg.github.io/rzutokanasudety)
   - Subject area: Mountains, Photography
-  - Techologies, libraries: React (including React Router, hooks), JS, JSX, HTML, CSS, API
+  - Technologies, libraries: React (including React Router, hooks), JS, JSX, HTML, CSS, API
   - Language: pl
   - GitHub repository: https://github.com/tadeg/rzutokanasudety
   - [x] Published: 2022.09
