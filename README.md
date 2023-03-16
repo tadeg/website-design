@@ -51,12 +51,6 @@ This repository contains author's portfolio of front-end development amateur, ho
   - Language: en
   - [x] Published: 2023.03
   
-> ### www.sometext.pl
-  - Subject area: Short essays in English
-  - Technologies, libraries: HTML, CSS
-  - Language: en
-  - [x] Published: 2021.10
-  
 ## Websites prototypes
 
 > #### [Car Wash "High Gloss"](http://www.tadoe.pl/prototypes/carwash/index.html)
