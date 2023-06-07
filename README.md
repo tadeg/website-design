@@ -91,6 +91,14 @@ This repository contains author's portfolio of front-end development amateur, ho
   - GitHub repository: https://github.com/tadeg/housing-estate-library
   - [x] Status: under construction
 
+> ### [Fruit Market "Natural Strenght!" - website prototype](https://tadeg.github.io/fruit-market/)
+  - Subject area: Business Services: Fruit Market (of fictional Business Unit)
+  - Technologies, libraries: React (including: React Router, hooks, Styled Components, Radium, Context API), JS, JSX, HTML, CSS, NPM packages 
+  - Language: en
+  - GitHub repository: https://github.com/tadeg/fruit-market
+  - Mockup: https://www.figma.com/file/tXqzO5lFdptXkoSIzaojbl/fruit-market-mockup?type=design&node-id=0%3A1&t=e9LAiJx102zsO5lr-1
+  - [x] Status: under construction
+
 ## Short pieces 
 
 #### [pr0001-photographic-film-concept](https://github.com/tadeg/website-design/tree/main/pr0001-photographic-film-concept)
@@ -249,6 +257,7 @@ This repository contains author's portfolio of front-end development amateur, ho
 
 ## Mockups
 #### [mk0001-gugafotografia.pl](https://github.com/tadeg/website-design/tree/main/mockups/mk0001-gugafotografia.pl)
+#### [mk0002-fruit-market (under construction)](https://www.figma.com/file/tXqzO5lFdptXkoSIzaojbl/fruit-market-mockup?type=design&node-id=0%3A1&t=e9LAiJx102zsO5lr-1)
 
 ## Contact info
 ✉️ tadoe@tadoe.pl
