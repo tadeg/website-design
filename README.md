@@ -91,7 +91,7 @@ This repository contains author's portfolio of front-end development amateur, ho
   - GitHub repository: https://github.com/tadeg/housing-estate-library
   - [x] Status: under construction
 
-> ### [Fruit Market "Natural Strenght!" - website prototype](https://tadeg.github.io/fruit-market/)
+> ### [Fruit Market "Natural Strength!" - website prototype](https://tadeg.github.io/fruit-market/)
   - Subject area: Business Services: Fruit Market (of fictional Business Unit)
   - Technologies, libraries: React (including: React Router, hooks, Styled Components, Radium, Context API), JS, JSX, HTML, CSS, NPM packages 
   - Language: en
