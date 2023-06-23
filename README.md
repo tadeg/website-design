@@ -89,11 +89,11 @@ This repository contains author's portfolio of front-end development amateur, ho
   - Technologies, libraries: React (including: Bootstrap, Formik, Yup, React Router, hooks), Redux, Redux-thunk, JS, JSX, HTML, CSS, API
   - Language: en
   - GitHub repository: https://github.com/tadeg/housing-estate-library
-  - [x] Status: under construction
+  - [x] Status: for further development
 
 > ### [Fruit Market "Natural Strength!" - website prototype](https://tadeg.github.io/fruit-market/)
   - Subject area: Business Services: Fruit Market (of fictional Business Unit)
-  - Technologies, libraries: React (including: React Router, hooks, Styled Components, Radium, Context API), JS, JSX, HTML, CSS, NPM packages 
+  - Technologies, libraries: React (including: React Router, hooks, Styled Components, Radium, PropTypes, Context API), Redux, Redux-thunk, JS, JSX, HTML, CSS, API, JWT, NPM packages 
   - Language: en
   - GitHub repository: https://github.com/tadeg/fruit-market
   - Mockup: https://www.figma.com/file/tXqzO5lFdptXkoSIzaojbl/fruit-market-mockup?type=design&node-id=0%3A1&t=e9LAiJx102zsO5lr-1
