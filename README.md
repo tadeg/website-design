@@ -75,6 +75,18 @@ This repository contains author's portfolio of front-end development amateur, ho
 </ul>
 </details>
 
+> #### [Vehicles Gallery](https://tadeg.github.io/vehicles-gallery/)
+<details>
+<summary>Specification</summary>
+<ul>
+<li>Subject area: Vehicles</li>
+<li>Technologies, libraries: HTML, CSS, JS, Bootstrap</li>
+<li>Language: en</li>
+<li>GitHub repository: https://github.com/tadeg/vehicles-gallery</li>
+<li>Published: 2023.09</li>
+</ul>
+</details>
+
 ## Websites in React
 
 > ### [rzutokanasudety](https://tadeg.github.io/rzutokanasudety)
