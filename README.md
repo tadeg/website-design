@@ -79,8 +79,8 @@ This repository contains author's portfolio of front-end development amateur, ho
 <details>
 <summary>Specification</summary>
 <ul>
-<li>Subject area: Vehicles</li>
-<li>Technologies, libraries: HTML, CSS, JS, Bootstrap</li>
+<li>Subject area: Public Services: Vehicle Enthusiasts eClub (of fictional Unit)</li>
+<li>Technologies, libraries: HTML, CSS, Bootstrap</li>
 <li>Language: en</li>
 <li>GitHub repository: https://github.com/tadeg/vehicles-gallery</li>
 <li>Published: 2023.09</li>
