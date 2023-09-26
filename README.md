@@ -75,7 +75,7 @@ This repository contains author's portfolio of front-end development amateur, ho
 </ul>
 </details>
 
-> #### [Vehicles Gallery](https://tadeg.github.io/vehicles-gallery/)
+> #### [Vehicle Gallery](https://tadeg.github.io/vehicles-gallery/)
 <details>
 <summary>Specification</summary>
 <ul>
