@@ -88,7 +88,7 @@ This repository contains author's portfolio of front-end development amateur, ho
 <li>Subject area: Public Services: Technical articles portal (fictional Unit)</li>
 <li>Technologies, libraries: HTML, CSS</li>
 <li>Language: en</li>
-<li>Stat: 2023.10</li>
+<li>Published: 2023.10</li>
 </ul>
 </details>
 
