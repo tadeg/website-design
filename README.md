@@ -44,13 +44,7 @@ This repository contains author's portfolio of front-end development amateur, ho
   - Language: pl
   - Customer: Railway enthusiast (family member)
   - [x] Published: 2022.09
-  
-> ### www.gugart.pl
-  - Subject area: Technical writing examples texts
-  - Technologies, libraries: HTML, CSS
-  - Language: en
-  - [x] Published: 2023.03
-  
+    
 ## Websites prototypes
 
 > #### [Car Wash "High Gloss"](http://www.tadoe.pl/prototypes/carwash/index.html)
@@ -84,6 +78,17 @@ This repository contains author's portfolio of front-end development amateur, ho
 <li>Language: en</li>
 <li>GitHub repository: https://github.com/tadeg/vehicles-gallery</li>
 <li>Published: 2023.09</li>
+</ul>
+</details>
+
+> #### [Techtext i-point](http://www.tadoe.pl/prototypes/techtext-ipoint/index.html)
+<details>
+<summary>Specification</summary>
+<ul>
+<li>Subject area: Public Services: Technical articles portal (fictional Unit)</li>
+<li>Technologies, libraries: HTML, CSS</li>
+<li>Language: en</li>
+<li>Stat: 2023.10</li>
 </ul>
 </details>
 
