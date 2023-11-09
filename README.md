@@ -81,7 +81,7 @@ This repository contains author's portfolio of front-end development amateur, ho
 </ul>
 </details>
 
-> #### [Techtext i-point](http://www.tadoe.pl/prototypes/techtext-ipoint/index.html)
+> #### [Techtext ipoint](http://www.tadoe.pl/prototypes/techtext-ipoint/index.html)
 <details>
 <summary>Specification</summary>
 <ul>
@@ -89,6 +89,17 @@ This repository contains author's portfolio of front-end development amateur, ho
 <li>Technologies, libraries: HTML, CSS</li>
 <li>Language: en</li>
 <li>Published: 2023.10</li>
+</ul>
+</details>
+
+> #### [Literature ipoint](https://tadoe.pl/prototypes/literature-ipoint/index.html)
+<details>
+<summary>Specification</summary>
+<ul>
+<li>Subject area: Public Services: Essays, texts portal (fictional Unit)</li>
+<li>Technologies, libraries: HTML, CSS</li>
+<li>Language: en</li>
+<li>Published: 2023.11</li>
 </ul>
 </details>
 
