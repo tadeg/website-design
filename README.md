@@ -44,6 +44,13 @@ This repository contains author's portfolio of front-end development amateur, ho
   - Language: pl
   - Customer: Railway enthusiast (family member)
   - [x] Published: 2022.09
+
+> ### www.architektonicznekadry.pl
+  - Subject area: Architecture, Photography
+  - Technologies, libraries: HTML, CSS, JS, nanogallery2, tilt.js
+  - Language: pl/en
+  - Customer: Architecture enthusiast (family member)
+  - [x] Published: 2024.02
     
 ## Websites prototypes
 
