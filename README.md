@@ -132,7 +132,7 @@ This repository contains author's portfolio of front-end development amateur, ho
   - Language: en
   - GitHub repository: https://github.com/tadeg/fruit-market
   - Mockup: https://www.figma.com/file/tXqzO5lFdptXkoSIzaojbl/fruit-market-mockup?type=design&node-id=0%3A1&t=e9LAiJx102zsO5lr-1
-  - [x] Status: under construction
+  - [x] Status: for further development
 
 ## Short pieces 
 
