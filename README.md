@@ -20,19 +20,19 @@ This repository contains author's portfolio of front-end development amateur, ho
   - Language: pl
   - [x] Published: 2021.08
 
-> ### www.fotoprzegladkolejowy.pl
-  - Subject area: Railways, Photography
-  - Technologies, libraries: HTML, CSS, JS, Lightbox, Swiper
-  - Language: pl
-  - Customer: Railway enthusiast (family member)
-  - [x] Published: 2022.09
-
 > ### www.architektonicznekadry.pl
   - Subject area: Architecture, Photography
   - Technologies, libraries: HTML, CSS, JS, nanogallery2, tilt.js
   - Language: pl/en
   - Customer: Architecture enthusiast (family member)
   - [x] Published: 2024.02
+
+> ### www.fotoprzegladkolejowy.pl
+  - Subject area: Railways, Photography
+  - Technologies, libraries: HTML, CSS, JS, Lightbox, Swiper
+  - Language: pl
+  - Customer: Railway enthusiast (family member)
+  - [x] Published: 2022.09
   
 > ### www.naszerysunki.pl
   - Subject area: Drawings made for fun
