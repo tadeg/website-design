@@ -45,6 +45,12 @@ This repository contains author's portfolio of front-end development amateur, ho
   - Technologies, libraries: HTML, CSS, JS, Sass, Lightbox
   - Language: pl/en
   - [x] Published: 2022.02
+
+> ### www.fotofilozofia.pl
+  - Subject area: Texts attempting to merge photographic themes with philosophical concepts
+  - Technologies, libraries: HTML, CSS
+  - Language: pl
+  - [x] Published: 2021.10
     
 ## Websites prototypes
 
