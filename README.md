@@ -33,6 +33,12 @@ This repository contains author's portfolio of front-end development amateur, ho
   - Language: pl
   - Customer: Railway enthusiast (family member)
   - [x] Published: 2022.09
+
+> ### www.fotofilozofia.pl
+  - Subject area: Texts attempting to merge photographic themes with philosophical concepts
+  - Technologies, libraries: HTML, CSS
+  - Language: pl
+  - [x] Published: 2021.10
   
 > ### www.naszerysunki.pl
   - Subject area: Drawings made for fun
