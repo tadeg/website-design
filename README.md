@@ -20,6 +20,12 @@ This repository contains author's portfolio of front-end development amateur, ho
   - Language: pl
   - [x] Published: 2021.08
 
+> ### www.fotofilozofia.pl
+  - Subject area: Photography
+  - Technologies, libraries: HTML, CSS, JS, Lightbox, tilt.js
+  - Language: pl/en
+  - [x] Published: 2025.03
+
 > ### www.architektonicznekadry.pl
   - Subject area: Architecture, Photography
   - Technologies, libraries: HTML, CSS, JS, nanogallery2, tilt.js
@@ -40,12 +46,13 @@ This repository contains author's portfolio of front-end development amateur, ho
   - Language: pl
   - [x] Published: 2022.02
 
-> ### www.gugafoto.pl
+> ### [gugafoto](http://tadoe.pl/archives/gugafoto/en_index.html)
   - Subject area: Photography
   - Technologies, libraries: HTML, CSS, JS, Sass, Lightbox
   - Language: pl/en
   - [x] Published: 2022.02
-    
+  - [x] Status: archived
+        
 ## Websites prototypes
 
 > #### [Car Wash "High Gloss"](http://www.tadoe.pl/prototypes/carwash/index.html)
